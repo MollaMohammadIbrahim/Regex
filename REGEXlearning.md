@@ -219,3 +219,16 @@ Total matches found: 1
 
 
 ```
+## Limitng the lenght of string
+```
+^(?=.{1,10}$)[\w.]+@gmail\.[\w.]+$
+```
+**Explanation:**
+```
+1. ^: Asserts the start of the string.
+2. (?=.{1,10}$): Positive lookahead assertion. Checks that the entire string is between 1 and 10 characters in length.
+3. [\w.]+: Matches one or more word characters or dots (for the username part).
+4. @gmail\.: Matches the literal string "@gmail.".
+5. [\w.]+: Matches one or more word characters or dots (for the domain part).
+6. $: Asserts the end of the string.
+```

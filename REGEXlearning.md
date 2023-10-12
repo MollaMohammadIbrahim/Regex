@@ -2,7 +2,7 @@
 A regular expression, often abbreviated as regex, is a powerful tool used in computing to define search patterns. It's a sequence of characters that forms a search pattern
 # Important sites:
 1. Online Regex Editor : [Regex101](https://regex101.com/)
-2. C++ Reges Tutorial: [Tutorials Point](https://www.tutorialspoint.com/cpp_standard_library/regex.htm)
+2. C++ Regex Tutorial: [Tutorials Point](https://www.tutorialspoint.com/cpp_standard_library/regex.htm)
 
 # C++ regex library
 **Header File**  #include<regex>
@@ -103,9 +103,9 @@ std::string result = std::regex_replace(text, pattern, "cat");
 \\ or R is used in c++ instead of \
 
 1. \d  =  any digit
-2. \d  =  any non digit character
+2. \D =  any non digit character
 3. .   = any char excep white space
-4. \.  = period
+4. \\.  = period
 5. [abc]  = any from abbc
 5. ^a  = except a
 6. \w  = a-z, A-Z, 0-9, _ ( any alpha numeric character)
